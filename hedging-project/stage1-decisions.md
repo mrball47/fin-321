@@ -14,26 +14,26 @@
 
 ---  
   
-This memo outlines a risk management strategy for our Euro-denominated receivable, valued at a $20,000,000 USD baseline, due in one year. Because our functional currency is the US Dollar, this unhedged cash flow exposes our projected revenue to volatility in the EUR/USD exchange rate. To manage this risk, we will be analyzing various hedging strategies for the receivable, modeling such strategies under various levels of volatility, and using AI to reconstruct our model and provide recommendations for the firm.
+This memo outlines a risk management methodology for our Euro-denominated receivable, valued at a $20,000,000 USD baseline, due in one year. Because our functional currency is the US Dollar, this unhedged cash flow exposes our projected revenue to volatility in the EUR/USD exchange rate. To manage this risk, we will be analyzing various hedging strategies for the receivable, modeling such strategies under various levels of volatility, and using AI to reconstruct our model and provide recommendations for the firm.
 
-Over a 1-year horizon, the EUR/USD exchange rate is highly susceptible to macroeconomic volatility driven by changes in central bank interest rate divergences, shifting inflation data, and geopolitical uncertainty. If the Euro weakens before the settlement date, the converted USD equivalent of our revenue will decline. 
+Over a 1-year horizon, the EUR/USD exchange rate is susceptible to macroeconomic volatility driven by changes in central bank interest rates, shifting inflation data, and geopolitical uncertainty. If the Euro weakens before the settlement date, the converted USD equivalent of our revenue will decline. 
 
 Securing such risk will accomplish the following objectives:
   * Protect the USD value of this receivable against adverse currency movements. 
-  * Balancing the level of downside protection against the operational costs of the hedge (minimizing upfront cash requirements in option premiums, or avoiding unnecessary strain the firm's balance sheets and credit lines).
+  * Balance our downside protection with heding costs (minimizing upfront cash requirements in option premiums, or avoiding unnecessary strain the firm's balance sheets and credit lines).
   * Establish a repeatable framework for evaluating future international receivables and mitigating FX risk across the firm.
 
-To mitigate this currency risk, we are evaluating three distinct hedging methodologies:
+To mitigate this currency risk, we are evaluating three hedging strategies:
 
 * **Forward Market Hedge:** We can lock in a guaranteed exchange rate today (the 1-year forward rate is currently quoted at 1.0935).
 
   * **Pros:** Provides 100% certainty for future USD cash flows with zero upfront cash cost. 
-  * **Cons:** Completely eliminates any upside profit potential if the Euro appreciates.
+  * **Cons:** Eliminates any upside profit potential if the Euro appreciates.
 
 * **Options Contracts:** We can purchase a put option on the Euro, granting us the right to sell our Euros at a fixed strike rate.
 
-  * **Pros:** Establishes a firm floor against Euro depreciation while allowing us to capture upside if the Euro strengthens.
-  * **Cons:** Requires an immediate, out-of-pocket premium payment ($0.019 per contract).
+  * **Pros:** Establishes a firm floor against Euro depreciation while capturing potential upside if the Euro strengthens.
+  * **Cons:** Requires an immediate premium payment ($0.019 per contract).
 
 * **Money Market Hedge:** We can borrow against the expected Euro receivable today, convert the funds to USD at the current spot rate, and use the incoming Euro payment to retire the debt next year.
 
