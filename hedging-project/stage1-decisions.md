@@ -23,7 +23,7 @@ Securing such risk will accomplish the following objectives:
   * Balance our downside protection with heding costs (minimizing upfront cash requirements in option premiums, or avoiding unnecessary strain the firm's balance sheets and credit lines).
   * Establish a framework for evaluating future international receivables and mitigating FX risk across the firm.
 
-To mitigate this currency risk, we are evaluating three hedging strategies:
+We are currently evaluating three hedging strategies:
 
 * **Forward Contracts:** Lock in a guaranteed exchange rate today (currently quoted at 1.0935).
 
@@ -44,9 +44,9 @@ To determine the optimal solution, we will execute the following sequence:
 
   **1. Excel Model Build:** Build a working spreadsheet computing forward, options, and money market hedge outcomes under various sensitivities in EUR/USD (±5%).
 
-  **2. Technical Specifications:** Document the model's development, and design a framework precise enough for an another analyst of AI to reconstruct for other international receivables. 
+  **2. Technical Specifications:** Document the model's development and design a framework precise enough for another analyst or AI to reconstruct for other international receivables. 
 
-  **3. Final Analysis & AI Prompt:** Interpret our results, and write a structured AI prompt to regenerate our model and deliver executive-ready recommendations.
+  **3. Final Analysis & AI Prompt:** Interpret our results and write a structured AI prompt to regenerate our model and deliver executive-ready recommendations.
 
 ---
 
