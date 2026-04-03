@@ -1,7 +1,7 @@
 # Memo - Hedging Decision
 
 **Created by:** Michael Ballesteros  
-**Updated by:** Michael Ballesteros
+**Updated by:** Michael Ballesteros  
 **Date Created:** April 2, 2026  
 **Date Updated:** April 3, 2026  
 **Version:** 2.0  
