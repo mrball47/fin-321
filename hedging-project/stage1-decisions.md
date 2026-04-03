@@ -4,11 +4,11 @@
 **Updated by:** Michael Ballesteros
 **Date Created:** April 2, 2026  
 **Date Updated:** April 3, 2026  
-**Version:** [2.0]  
-**LLM Used:** [LLM name, or "None"]  
+**Version:** 2.0  
+**LLM Used:** Gemini
 
 **TO:** Chief Financial Officer  
-**FROM:**: Financial Risk Management  
+**FROM:** Financial Risk Management  
 **DATE:** April 3, 2026  
 **SUBJECT:** FX Exposure on European Receivable and Proposed Hedging Strategies  
 
@@ -22,12 +22,22 @@ Our firm is scheduled to receive a significant Euro-denominated payment in exact
 
 * **Secondary Objective:** Establish a repeatable framework for evaluating future international receivables and mitigating FX risk across the firm.
 
----
+To mitigate this currency risk, we are evaluating three distinct hedging methodologies:
 
-## Methods
-Describe the methodology you will use to achieve the objectives. This might include analytical tools, data sources, models, frameworks, or project phases. Keep the language clear and structured so others can follow the plan.
+* **Forward Market Hedge:** We can lock in a guaranteed exchange rate today (the 1-year forward rate is currently quoted at 1.0935).
 
----
+  * **Pros:** Provides 100% certainty for future USD cash flows with zero upfront cash cost. 
+  * **Cons:** Completely eliminates any upside profit potential if the Euro appreciates.
+
+* **Options Contracts:** We can purchase a put option on the Euro, granting us the right to sell our Euros at a fixed strike rate.
+
+  * **Pros:** Establishes a firm floor against Euro depreciation while allowing us to capture upside if the Euro strengthens.
+  * **Cons:** Requires an immediate, out-of-pocket premium payment ($0.019 per contract).
+
+* **Money Market Hedge:** We can borrow against the expected Euro receivable today, convert the funds to USD at the current spot rate, and use the incoming Euro payment to retire the debt next year.
+
+  * **Pros:** Locks in a known USD value today and provides immediate liquidity for operations.
+  * **Cons:** Consumes existing balance sheet capacity and ties up corporate credit lines.
 
 ## Limitations & Next Steps
 Acknowledge any known constraints, assumptions, or uncertainties. Then describe the immediate next steps and who is responsible for them.
