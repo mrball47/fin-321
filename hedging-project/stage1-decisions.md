@@ -25,17 +25,17 @@ Securing such risk will accomplish the following objectives:
 
 To mitigate this currency risk, we are evaluating three hedging strategies:
 
-* **Forward Market Hedge:** We can lock in a guaranteed exchange rate today (the 1-year forward rate is currently quoted at 1.0935).
+* **Forward Contracts:** Lock in a guaranteed exchange rate today (the 1-year forward rate is currently quoted at 1.0935).
 
   * **Pros:** Provides 100% certainty for future USD cash flows with zero upfront cash cost. 
   * **Cons:** Eliminates any upside profit potential if the Euro appreciates.
 
-* **Options Contracts:** We can purchase a put option on the Euro, granting us the right to sell our Euros at a fixed strike rate.
+* **Options Contracts:** Purchase a put option on the Euro, granting us the right to sell them at a fixed strike rate.
 
   * **Pros:** Establishes a firm floor against Euro depreciation while capturing potential upside if the Euro strengthens.
   * **Cons:** Requires an immediate premium payment ($0.019 per contract).
 
-* **Money Market Hedge:** We can borrow against the expected Euro receivable today, convert the funds to USD at the current spot rate, and use the incoming Euro payment to retire the debt next year.
+* **Money Market Hedge:** Borrow against the expected Euro receivable today, convert the funds to USD at the current spot rate, and use the incoming Euro payment to retire the debt next year.
 
   * **Pros:** Locks in a known USD value today and provides immediate liquidity for operations.
   * **Cons:** Consumes existing balance sheet capacity and ties up corporate credit lines.
@@ -50,5 +50,5 @@ To determine the optimal path forward, we will execute the following sequence:
 
 ---
 
-## References
-List any sources, data sets, or foundational research that informed this proposal. Use a consistent citation style (APA, MLA, or Chicago).
+**References**
+Eun, C., Resnick, B., & Chuluun, T. (2024). *International Financial Management* (10th ed.). McGraw-Hill Education. 
