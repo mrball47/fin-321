@@ -20,12 +20,12 @@ Over a 1-year horizon, the EUR/USD exchange rate is susceptible to macroeconomic
 
 Securing such risk will accomplish the following objectives:
   * Protect the receivable's USD value against adverse currency movements. 
-  * Balance downside protection with hedging costs (minimizing upfront cash requirements and option premiums, or avoiding unnecessary strain the firm's balance sheets and credit lines).
+  * Balance downside protection with hedging costs (minimizing upfront cash requirements and premiums, or avoiding unnecessary strain the firm's balance sheets and credit lines).
   * Establish a framework for evaluating future international receivables and mitigating currency risk across the firm.
 
 We are currently evaluating three strategies:
 
-* **Forward Contracts:** Lock in a guaranteed exchange rate today (currently quoted at 1.0935).
+* **Forward Contracts:** Lock in exchange rate today (currently quoted at 1.0935).
 
   * **Pros:** Provides complete certainty for future USD cash flows with no upfront premiums. 
   * **Cons:** Eliminates any upside profit potential if the Euro appreciates.
@@ -37,7 +37,7 @@ We are currently evaluating three strategies:
 
 * **Money Market Hedge:** Borrow against the expected Euro receivable today, convert the funds to USD at the current spot rate, and use the incoming Euro payment to retire the debt next year.
 
-  * **Pros:** Locks in a known USD value today and provides immediate liquidity for operations.
+  * **Pros:** Locks in a known USD value today and provides immediate liquidity.
   * **Cons:** Consumes existing balance sheet capacity and ties up corporate credit lines.
 
 To determine the optimal solution, we will execute the following sequence:
