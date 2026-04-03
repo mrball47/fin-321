@@ -39,8 +39,13 @@ To mitigate this currency risk, we are evaluating three distinct hedging methodo
   * **Pros:** Locks in a known USD value today and provides immediate liquidity for operations.
   * **Cons:** Consumes existing balance sheet capacity and ties up corporate credit lines.
 
-## Limitations & Next Steps
-Acknowledge any known constraints, assumptions, or uncertainties. Then describe the immediate next steps and who is responsible for them.
+To determine the optimal path forward, we will execute the following sequence:
+
+  **1. Excel Model Build:** Build a working spreadsheet computing forward, option, and money market hedge outcomes under various sensitivities in EUR/USD (±5%).
+
+  **2. Technical Specifications:** Document the model's development, and design a framework precise enough for an another analyst of AI to reconstruct for other international receivables. 
+
+  **3. Final Analysis & AI Prompt:** Interpret our results, and write a structured AI prompt to regenerate our model and deliver an executive-ready recommendation.
 
 ---
 
