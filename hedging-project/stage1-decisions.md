@@ -1,25 +1,21 @@
 # Memo - Hedging Decision
 
 **Created by:** Michael Ballesteros  
-**Updated by:** N/A
+**Updated by:** N/A  
 **Date Created:** April 3, 2026  
-**Date Updated:** N/A
-**Version:** [1.0]
-**LLM Used:** [LLM name, or "None"]
+**Date Updated:** N/A  
+**Version:** [1.0]  
+**LLM Used:** [LLM name, or "None"]  
 
-**TO:** Chief Financial Officer
-**FROM:** 
-**DATE:** April 3, 2026
-**SUBJECT:** FX Exposure on European Receivable and Proposed Hedging Strategies
+**TO:** Chief Financial Officer  
+**FROM:**: Financial Risk Management  
+**DATE:** April 3, 2026  
+**SUBJECT:** FX Exposure on European Receivable and Proposed Hedging Strategies  
 
----
-
-## Executive Summary (≤150 words)
+---  
+  
 This memo outlines a risk management strategy for our upcoming Euro-denominated receivable, valued at a $20,000,000 USD baseline, due in one year. Because our functional currency is the US Dollar, this unhedged cash flow exposes our projected revenue directly to EUR/USD exchange rate volatility. The primary objective is to evaluate and implement a hedging strategy that protects our profit margins against potential Euro depreciation. We will analyze three core approaches: Forward Contracts, Money Market Hedges, and Options. Expected outcomes include a fully functional financial model to compare these scenarios and a final, data-driven recommendation to secure our USD revenue targets.
 
----
-
-## Background & Objectives
 Our firm is scheduled to receive a significant Euro-denominated payment in exactly 12 months. Currently, this incoming cash flow is entirely unhedged. The core problem is that a depreciation of the Euro against the US Dollar before the settlement date would directly reduce our realized USD proceeds. Left unmanaged, this FX exposure threatens to compress project profit margins and compromise our baseline revenue target. 
 
 * **Primary Objective:** Protect the USD value of this receivable against adverse currency movements.
