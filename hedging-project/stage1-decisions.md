@@ -1,10 +1,10 @@
 # Memo - Hedging Decision
 
 **Created by:** Michael Ballesteros  
-**Updated by:** N/A  
-**Date Created:** April 3, 2026  
-**Date Updated:** N/A  
-**Version:** [1.0]  
+**Updated by:** Michael Ballesteros
+**Date Created:** April 2, 2026  
+**Date Updated:** April 3, 2026  
+**Version:** [2.0]  
 **LLM Used:** [LLM name, or "None"]  
 
 **TO:** Chief Financial Officer  
