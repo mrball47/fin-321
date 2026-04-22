@@ -20,9 +20,9 @@ This document outlines a model used to evaluate FX risk management strategies fo
 
 ---
 
-## 2. Inputs (Known Variables)
+## 2. Inputs
 
-Create a clean, professional input table. This will become the foundation for your spreadsheet and future AI prompts.
+Known variables that serve as the model's foundation:
 
 | Variable | Description | Unit | Example | Source |
 |-----------|-------------|------|----------|--------|
@@ -59,7 +59,7 @@ The hedging model accounts for the following:
 
 ## 5. Outputs
 
-List expected results from the model. These become your **spreadsheet outputs**, **AI prompt targets**, and **Stage 5 discussion points**.
+Expected results from the model:  
 
 | Output | Description | Format | Purpose |
 |---------|--------------|---------|----------|
