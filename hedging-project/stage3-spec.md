@@ -80,11 +80,11 @@ To test our strategies against FX fluctuations, the table of hedging outcomes is
 
 ## 7. Limitations & Next Steps
 
-The model's real-world accuracy is limited by the following:   
+The model's complete accuracy is limited by the following:   
 
   1. The money market hedge assumes the firm has immediate, unrestricted access to a €16.37M line of credit at the stated interest rate.
   2. The model assumes the 1-year forward rate 0f 1.0935 is a fixed market quote. However, based on the spot rate (1.1770) and the narrow interest rate differential (3.670% U.S. vs. 3.691% E.U.), this forward rate violates Covered Interest Rate Parity and creates an arbitrage opportunity.			    
 
-  The next phase of our decision-making process will involve constructing an Excel model implementing this logic to quantify results under each hedge structure.
+  The next phase of our decision-making process will involve constructing an Excel model implementing this logic to quantify results under each hedge structure. The model will be built off the specifications in this document, as well as direct prompting that can be replicated across various AI large language models. The finished framework can be applied to foreign receivables the firm collects in the future.
 
 ---
