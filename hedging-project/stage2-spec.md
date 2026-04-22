@@ -1,4 +1,4 @@
-# [Spec Title] – Technical Specification Template
+# Receivable Hedging – Technical Specification
 
 **Created by:** [name]  
 **Updated by:** [name]  
