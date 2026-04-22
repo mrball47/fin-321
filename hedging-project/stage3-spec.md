@@ -67,7 +67,7 @@ Expected results from the model:
 |---------|--------------|---------|----------|
 | `USD_forward` | USD proceeds from forward hedge | Numeric | Certainty benchmark |
 | `USD_mm` | USD proceeds from money market hedge | Numeric | Cross-check against forward |
-| `Table_1` | Hedge outcomes vs. EUR/USD sensitivity | Heatmap | Visual comparison |
+| `Table` | Hedge outcomes vs. EUR/USD sensitivity | Heatmap | Visual comparison |
 | `Summary` | Written conclusion | 1–2 paragraphs | Executive-ready takeaway |
 
 ---
