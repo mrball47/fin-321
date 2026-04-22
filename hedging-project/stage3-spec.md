@@ -16,15 +16,7 @@
 
 ## 1. Problem Statement
 
-This document outlines a risk management methodology for our Euro-denominated receivable, valued at a $20,000,000 USD baseline, due in one year. Because our functional currency is the US Dollar, this unhedged cash flow exposes our projected revenue to volatility in the EUR/USD exchange rate. To manage this risk, we will be analyzing various hedging strategies for the receivable, modeling such strategies under various levels of volatility, and using AI to reconstruct our model and provide recommendations for the firm.
-
-Include:
-- Exposure type (receivable or payable)  
-- Foreign currency amount and time horizon  
-- Objective (e.g., protect USD value, preserve upside)  
-- Decision context (corporate treasury or business unit)
-
-> *A strong statement demonstrates clear understanding of both financial context and business implications.*
+This document outlines a model used to evaluate FX risk management strategies for our Euro-denominated receivable, valued at a $20,000,000 USD baseline, due in one year. Because our functional currency is the US Dollar, this unhedged cash flow exposes our projected revenue to volatility in the EUR/USD exchange rate. To manage this risk, we will be analyzing forward and money market hedges for the receivable, modeling such strategies under various spot rates, and classifying what stragies are the most sensible relative to varying sensitivity levels and other criteria. 
 
 ---
 
@@ -51,7 +43,7 @@ The hedging model accounts for the following:
   2. The model assumes the firm can transact exactly at the quoted spot (1.1781) and forward (1.0935) rates with no bid-ask spread.			  
   3. The model applies a single foreign interest rate (3.691%) and domestic interest rate (3.670%) with no spread.			  
   4. The money market hedge assumes the firm has immediate, unrestricted access to a €16.37M line of credit at the stated interest rate.			  
-  5. The model calculates gross cash flows and ignores any tax implications regarding foreign exchange gains/losses, interest expenses on the Euro loan, or interest income on the USD deposit.  
+  5. The model calculates gross cash flows and ignores any tax implications regarding FX gains/losses, interest expenses on the Euro loan, or interest income on the USD deposit.  
   6. The model assumes the 1-year forward rate 0f 1.0935 is a fixed market quote. However, based on the spot rate (1.1770) and the narrow interest rate differential (3.670% U.S. vs. 3.691% E.U.), this forward rate violates Covered Interest Rate Parity and creates an arbitrage opportunity.			  
 
 ---
@@ -92,12 +84,3 @@ Example phrasing:
 > This specification does not incorporate implied volatility or transaction costs. The next phase will involve constructing an Excel model implementing this logic to quantify results under each hedge structure.
 
 ---
-
-# 🧭 Writing a Strong Specification
-
-**Your spec should:**
-- **Communicate like a professional:** clear, structured, and jargon-free.  
-- **Think one stage ahead:** your spec should feed directly into your Excel build or AI prompt.  
-- **Be internally consistent:** variables, labels, and steps must align.  
-- **Be reproducible:** a new analyst should be able to implement your plan without your help.  
-- **Be executive-relevant:** the CFO should understand *what you’re doing* and *why it matters*.
