@@ -35,10 +35,10 @@ Create a clean, professional input table. This will become the foundation for yo
 | Variable | Description | Unit | Example | Source |
 |-----------|-------------|------|----------|--------|
 | `FC_AMT` | Foreign-currency receivable | EUR | 16,999,575.01 | Company data |
-| `S₀` | Current EUR/USD spot rate | USD/EUR | [Look up] | Market data |
+| `S₀` | Current EUR/USD spot rate | USD/EUR | [Look up] | Market data (Bloomberg) |
 | `F₀` | 1-year EUR/USD forward rate | USD/EUR | 1.0935 | Provided |
-| `r_USD` | USD 1-year interest rate | % | [Look up] | Market data |
-| `r_EUR` | EUR 1-year interest rate | % | [Look up] | Market data |
+| `r_USD` | USD 1-year interest rate | % | [Look up] | Market data (Secured Overnight Financing Rate) |
+| `r_EUR` | EUR 1-year interest rate | % | [Look up] | Market data (Euro Interbank Offered Rate) |
 | `t` | Time to maturity | Years | 1 | Derived |
 
 ---
