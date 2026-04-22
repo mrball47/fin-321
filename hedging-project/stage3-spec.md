@@ -39,7 +39,7 @@ Known variables that serve as the model's foundation:
 
 The hedging model assumes the following:  
 
-  1. Interest rates are quoted on a simple annual basis.  
+  1. Interest rates are quoted on a simple annual basis, obtained from the aforementioned sources on 4/17/26 at 5:00 PM EDT.  
   2. Forward rate provided represents a 1-year maturity.
   3. Exchange rates expressed as USD per EUR. 
   4. The model assumes zero broker fees, bank commissions, or execution costs.			  
