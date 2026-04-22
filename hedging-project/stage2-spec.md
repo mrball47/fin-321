@@ -34,18 +34,12 @@ Create a clean, professional input table. This will become the foundation for yo
 
 | Variable | Description | Unit | Example | Source |
 |-----------|-------------|------|----------|--------|
-| `FC_AMT` | Foreign-currency receivable | EUR | 1,200,000 | Company data |
-| `S₀` | Current EURUSD spot rate | USD/EUR | [Look up] | Market data |
-| `F₀` | 1-year EURUSD forward rate | USD/EUR | 1.0890 | Provided |
+| `FC_AMT` | Foreign-currency receivable | EUR | 16,999,575.01 | Company data |
+| `S₀` | Current EUR/USD spot rate | USD/EUR | [Look up] | Market data |
+| `F₀` | 1-year EUR/USD forward rate | USD/EUR | 1.0935 | Provided |
 | `r_USD` | USD 1-year interest rate | % | [Look up] | Market data |
 | `r_EUR` | EUR 1-year interest rate | % | [Look up] | Market data |
 | `t` | Time to maturity | Years | 1 | Derived |
-| `K_put` | EUR Put strike | USD/EUR | [Set at spot] | Analyst choice |
-| `K_call` | EUR Call strike | USD/EUR | [Set at spot] | Analyst choice |
-| `Premium_put` | Put premium | USD per contract | 0.017 | Scenario |
-| `Premium_call` | Call premium | USD per contract | 0.022 | Scenario |
-
-> *Tip:* Keep labels short and standardized. Think like a financial modeler — these names should become variable names, spreadsheet inputs, or prompt parameters later.
 
 ---
 
