@@ -58,11 +58,10 @@ The hedging model accounts for the following:
 
 ## 4. Calculation Flow  
   
-  1. Compute USD proceeds under the forward hedge.  
-  2. Recreate a synthetic forward using money market parity to validate rates.  
-  3. Compute option hedge outcomes for both the EUR put and EUR call under varying spot outcomes (S_T).  
-  4. Compare USD results across hedges at the base case and across sensitivity scenarios.  
-  5. Summarize the trade-offs (certainty vs. optionality vs. cost).  
+  1. Calculate USD proceeds under the forward hedge using the provided forward rate.  
+  2. Calculate USD proceeds under a synthetic forward hedge using money market rates.  
+  3. Compare results across hedges at the base case and across various sensitivities of EUR appreciation/depreciation.  
+  4. Summarize hedging trade-offs regarding certainty, credit requirements, upside potential, and other criteria.  
 
 ---
 
