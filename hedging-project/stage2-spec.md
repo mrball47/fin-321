@@ -16,10 +16,7 @@
 
 ## 1. Problem Statement
 
-Briefly restate the exposure and objective in professional terms.
-
-Example phrasing:
-> Our company expects to receive EUR-denominated revenue in 12 months, exposing us to potential FX risk from fluctuations in the EURUSD rate. This specification outlines the analytical framework for quantifying, comparing, and evaluating alternative hedging strategies to mitigate that risk.
+This document outlines a risk management methodology for our Euro-denominated receivable, valued at a $20,000,000 USD baseline, due in one year. Because our functional currency is the US Dollar, this unhedged cash flow exposes our projected revenue to volatility in the EUR/USD exchange rate. To manage this risk, we will be analyzing various hedging strategies for the receivable, modeling such strategies under various levels of volatility, and using AI to reconstruct our model and provide recommendations for the firm.
 
 Include:
 - Exposure type (receivable or payable)  
