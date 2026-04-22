@@ -80,7 +80,7 @@ List expected results from the model. These become your **spreadsheet outputs**,
 
 ## 6. Sensitivity Plan
 
-To test our strategies against FX fluctuations, the table of hedging outcomes is organized under various EUR/USD spot rates. These rates are separated incruments of $0.01, and each hedging strategy's proceeds are computed under all levels. The table lists the results as raw returns and raw profit/loss versus an unhedged scenario. For each level of sensitivity, the more profitable strategy is deemed a "winner". The table's organization allows the firm to analyze what strategies would be the most sensible under scenarios where our receivable's foreign denomination appreciates or depreciates.  
+To test our strategies against FX fluctuations, the table of hedging outcomes is organized under various EUR/USD spot rates. These rates are separated by incruments of $0.01, and each hedging strategy's proceeds are computed under all levels. The table lists the results as raw returns and raw profit/loss versus an unhedged scenario. For each level of sensitivity, the more profitable strategy is deemed a "winner". The table's organization allows the firm to analyze what strategies would be the most sensible under scenarios where our receivable's foreign denomination appreciates or depreciates.  
 
 ---
 
