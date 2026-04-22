@@ -76,18 +76,11 @@ List expected results from the model. These become your **spreadsheet outputs**,
 | `Table_1` | Hedge outcomes vs. EUR/USD sensitivity | Heatmap | Visual comparison |
 | `Summary` | Written conclusion | 1–2 paragraphs | Executive-ready takeaway |
 
-> *Outputs should read like a professional financial dashboard — clear, repeatable, and decision-focused.*
-
 ---
 
 ## 6. Sensitivity Plan
 
-Define how you will test and visualize FX outcomes.
-
-Example:
-> Vary EURUSD spot at maturity \(S_T\) from 0.95×S₀ to 1.05×S₀ in increments of 0.01.  
-> For each value, compute USD proceeds under all hedge strategies.  
-> Present results as a comparison table and line chart.
+To test our strategies against FX fluctuations, the table of hedging outcomes is organized under various EUR/USD spot rates. These rates are separated incruments of $0.01, and each hedging strategy's proceeds are computed under all levels. The table lists the results as raw returns and raw profit/loss versus an unhedged scenario. For each level of sensitivity, the more profitable strategy is deemed a "winner". The table's organization allows the firm to analyze what strategies would be the most sensible under scenarios where our receivable's foreign denomination appreciates or depreciates.  
 
 ---
 
