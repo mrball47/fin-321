@@ -65,14 +65,11 @@ The hedging model accounts for the following:
 
 ## 4. Calculation Flow
 
-Describe the logic and sequencing of your analysis — as if briefing a junior analyst or AI model builder. Focus on **order of operations**, not formulas.
+Forward Hedging: This strategy locks in the future domestic value of the receivable using a forward contract.  
+  1. 
 
-Example flow:
-1. Compute USD proceeds under the forward hedge.  
-2. Recreate a synthetic forward using money market parity to validate rates.  
-3. Compute option hedge outcomes for both the EUR put and EUR call under varying spot outcomes \(S_T\).  
-4. Compare USD results across hedges at the base case and across sensitivity scenarios.  
-5. Summarize the trade-offs (certainty vs. optionality vs. cost).  
+Money Market Hedging: This strategy uses current spot markets and money markets to synthetically lock in a future exchange rate.  
+  1. 
 
 > *Your goal: anyone reading this section should know exactly how to implement your logic in Excel or code — without you explaining formulas.*
 
